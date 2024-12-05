@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Intro';
+  src: url('../fonts/intro/intro.eot');
+  src: url('../fonts/intro/intro.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/intro/intro.woff') format('woff'),
+    url('../fonts/intro/intro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Intro", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --intro-regular: "Intro-Regular", sans-serif;
+  --intro-bold: "Intro-Bold", sans-serif;
+  --intro-book: "Intro Book", sans-serif;
+  --intro: "Intro", sans-serif;
+  --bg-color: #484283;
+  --accent-color: #f14f4f;
+  --text-color: #444b58;
+  --small-text-color: #dbbba9;
+  --sec-bg: #fff4ee;
+  --gray-color: #b2b5bb;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.slider {
+  color: var(--text-color);
+  font-size: 16px;
+  margin-bottom: 29px;
+}
+
+
+.noUi-horizontal {
+  height: 4px !important;
+}
+
+.slider .noUi-target{
+  width: 100% !important;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  background: none;
+  border: none;
+}
+
+.slider .noUi-connect{
+  background: #444b58;
+}
+.slider .noUi-handle{
+  width: 6px !important;
+  height: 20px !important;
+  background-color: #444b58;
+  box-shadow: none;
+  border: none;
+  top: -8px !important;
+  right: -3px !important;
+}
+
+.slider .noUi-handle::after, .slider .noUi-handle::before{
+  content: none;
+}

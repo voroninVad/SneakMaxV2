@@ -45,7 +45,7 @@ const ModalBasket: FC<Props> = ({ closeModal, data }) => {
             <p>Итого:</p>
             <h3>{resultSum}</h3>
           </div>
-          <Link onClick={closeModal} to="/SneakMax/basket/">
+          <Link onClick={closeModal} to="/SneakMaxV2/basket/">
             Перейти в корзину
           </Link>
         </div>

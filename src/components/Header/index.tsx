@@ -32,7 +32,7 @@ const Header = () => {
       <header>
         <div className={style.container_header}>
           <div className={style.header__logo}>
-            <a href="/SneakMax/">SneakMax</a>
+            <a href="/SneakMaxV2/">SneakMax</a>
           </div>
           {isMobile ? <MobileMenu /> : <DesktopMenu />}
           <button className={style.card} onClick={openModal}>

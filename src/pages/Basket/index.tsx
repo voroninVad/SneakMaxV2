@@ -33,12 +33,12 @@ const PageBasket = () => {
     console.log(
       `Заказ №${numberOrder} Имя ${data.name_user} Номер ${data.tel_user} E-mail ${data.email_user}`
     );
-    history("/SneakMax/");
+    history("/SneakMaxV2/");
     basket.map((item) => dispatch(delBasket(item.id)));
   };
   const handleOverlayClick = (event: React.MouseEvent<HTMLDivElement>) => {
     if (event.currentTarget === event.target) {
-        history('/SneakMax/')
+        history('/SneakMaxV2/')
     }
 };
 

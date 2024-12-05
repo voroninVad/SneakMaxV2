@@ -43,7 +43,7 @@ const Sneaker = () => {
   const history = useNavigate()
   const handleOverlayClick = (event: React.MouseEvent<HTMLDivElement>) => {
     if (event.currentTarget === event.target) {
-        history('/SneakMax/')
+        history('/SneakMaxV2/')
     }
 };
   return (
@@ -106,10 +106,6 @@ const Sneaker = () => {
             </div>
           </div>
         ))}
-
-        {/* <button className={style.close_btn} onClick={closeModal}>
-          &times;
-        </button> */}
       </div>
     </>
   );

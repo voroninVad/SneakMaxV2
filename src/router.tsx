@@ -10,15 +10,15 @@ const router = createBrowserRouter([
       element: <Layout />,
       children: [
         {
-          path: "/SneakMax/",
+          path: "/SneakMaxV2/",
           element: <PageHome  />,
         },
         {
-          path: "/SneakMax/basket/",
+          path: "/SneakMaxV2/basket/",
           element: <PageBasket />,
         },
         {
-          path: "/SneakMax/sneakers/:id",
+          path: "/SneakMaxV2/sneakers/:id",
           element: <Sneaker />,
         },
       ],

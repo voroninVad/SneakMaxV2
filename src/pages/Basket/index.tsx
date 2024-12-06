@@ -15,7 +15,6 @@ const PageBasket = () => {
   const resultSum = useSelector<RootState, number>(
     (state) => state.basket.resultSum
   );
-  console.log(resultSum)
   const dispatch = useDispatch<AppDispatch>();
   useEffect(() => {
     const number = Math.floor(100000 + Math.random() * 900000);

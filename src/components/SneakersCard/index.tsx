@@ -34,7 +34,7 @@ const SneakersCard: FC<Props> = ({ item }) => {
         <h3>{item.title}</h3>
         <span>{item.price} p.</span>
         <div className={style.panel_hover}>
-          <Link to={`/SneakMax/sneakers/${item.id}`}>          
+          <Link to={`/SneakMaxV2/sneakers/${item.id}`}>          
             <img src={Btnshow} alt="" />
           </Link>
           <button onClick={() => handleAddBasket(item)}>
